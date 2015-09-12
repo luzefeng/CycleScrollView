@@ -1,3 +1,4 @@
+CycleScrollView
 
 1. 用swift写的无限循环图片展示，比较粗糙，其中用到了SDWwebImage用来下载网络图片和缓存图片。
 
