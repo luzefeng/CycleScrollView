@@ -18,3 +18,7 @@
         var scroll1 = CycleScrollView(frame: CGRect(x: 0, y: 400, width: self.view.bounds.size.width, height: 200))
         scroll1.setupRemoteImages(remoteImages)
         self.view.addSubview(scroll1)
+
+var timerInterval: NSTimeInterval = 2.0 //设置时间间隔
+
+var delegate: CycleScrollViewDelegate? //点击事件代理
