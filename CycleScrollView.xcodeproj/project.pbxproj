@@ -14,6 +14,15 @@
 		896EFF951BA30BBE00BBEF0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896EFF941BA30BBE00BBEF0E /* Images.xcassets */; };
 		896EFF981BA30BBE00BBEF0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896EFF961BA30BBE00BBEF0E /* LaunchScreen.xib */; };
 		896EFFA41BA30BBE00BBEF0E /* CycleScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EFFA31BA30BBE00BBEF0E /* CycleScrollViewTests.swift */; };
+		89C18DF41BA4165F003AD893 /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C18DF31BA4165F003AD893 /* CycleScrollView.swift */; };
+		89C18E061BA41C93003AD893 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C18E041BA41C61003AD893 /* WebImage.framework */; };
+		89C18E071BA41C93003AD893 /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89C18E041BA41C61003AD893 /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89C18E151BA41D9A003AD893 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E0F1BA41D9A003AD893 /* 2.JPG */; };
+		89C18E161BA41D9A003AD893 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E101BA41D9A003AD893 /* 3.JPG */; };
+		89C18E171BA41D9A003AD893 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E111BA41D9A003AD893 /* 4.JPG */; };
+		89C18E181BA41D9A003AD893 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E121BA41D9A003AD893 /* 5.JPG */; };
+		89C18E191BA41D9A003AD893 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E131BA41D9A003AD893 /* 6.JPG */; };
+		89C18E271BA42FF5003AD893 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89C18E261BA42FF5003AD893 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,56 @@
 			remoteGlobalIDString = 896EFF841BA30BBE00BBEF0E;
 			remoteInfo = CycleScrollView;
 		};
+		89C18DFD1BA41C61003AD893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		89C18DFF1BA41C61003AD893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		89C18E011BA41C61003AD893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		89C18E031BA41C61003AD893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		89C18E081BA41C93003AD893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2CADFE1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89C18E0A1BA41C94003AD893 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				89C18E071BA41C93003AD893 /* WebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		896EFF851BA30BBE00BBEF0E /* CycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +96,15 @@
 		896EFF9D1BA30BBE00BBEF0E /* CycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896EFFA21BA30BBE00BBEF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		896EFFA31BA30BBE00BBEF0E /* CycleScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleScrollViewTests.swift; sourceTree = "<group>"; };
+		89C18DF31BA4165F003AD893 /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
+		89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = "SDWebImage-master/SDWebImage.xcodeproj"; sourceTree = "<group>"; };
+		89C18E051BA41C7B003AD893 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		89C18E0F1BA41D9A003AD893 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		89C18E101BA41D9A003AD893 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		89C18E111BA41D9A003AD893 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		89C18E121BA41D9A003AD893 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
+		89C18E131BA41D9A003AD893 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
+		89C18E261BA42FF5003AD893 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C18E061BA41C93003AD893 /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +129,8 @@
 		896EFF7C1BA30BBE00BBEF0E = {
 			isa = PBXGroup;
 			children = (
+				89C18E051BA41C7B003AD893 /* Bridging-Header.h */,
+				89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */,
 				896EFF871BA30BBE00BBEF0E /* CycleScrollView */,
 				896EFFA01BA30BBE00BBEF0E /* CycleScrollViewTests */,
 				896EFF861BA30BBE00BBEF0E /* Products */,
@@ -79,6 +149,8 @@
 		896EFF871BA30BBE00BBEF0E /* CycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				89C18E0D1BA41D5D003AD893 /* Resouces */,
+				89C18DF21BA4163A003AD893 /* CycleScrollView */,
 				896EFF8A1BA30BBE00BBEF0E /* AppDelegate.swift */,
 				896EFF8F1BA30BBE00BBEF0E /* ViewController.swift */,
 				896EFF911BA30BBE00BBEF0E /* Main.storyboard */,
@@ -115,6 +187,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		89C18DF21BA4163A003AD893 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				89C18DF31BA4165F003AD893 /* CycleScrollView.swift */,
+			);
+			name = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		89C18DF61BA41C61003AD893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C18DFE1BA41C61003AD893 /* libSDWebImage.a */,
+				89C18E001BA41C61003AD893 /* libSDWebImage+WebP.a */,
+				89C18E021BA41C61003AD893 /* libSDWebImage+MKAnnotation.a */,
+				89C18E041BA41C61003AD893 /* WebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C18E0D1BA41D5D003AD893 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				89C18E261BA42FF5003AD893 /* 1.jpg */,
+				89C18E0F1BA41D9A003AD893 /* 2.JPG */,
+				89C18E101BA41D9A003AD893 /* 3.JPG */,
+				89C18E111BA41D9A003AD893 /* 4.JPG */,
+				89C18E121BA41D9A003AD893 /* 5.JPG */,
+				89C18E131BA41D9A003AD893 /* 6.JPG */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +229,12 @@
 				896EFF811BA30BBE00BBEF0E /* Sources */,
 				896EFF821BA30BBE00BBEF0E /* Frameworks */,
 				896EFF831BA30BBE00BBEF0E /* Resources */,
+				89C18E0A1BA41C94003AD893 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				89C18E091BA41C93003AD893 /* PBXTargetDependency */,
 			);
 			name = CycleScrollView;
 			productName = CycleScrollView;
@@ -182,6 +288,12 @@
 			mainGroup = 896EFF7C1BA30BBE00BBEF0E;
 			productRefGroup = 896EFF861BA30BBE00BBEF0E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 89C18DF61BA41C61003AD893 /* Products */;
+					ProjectRef = 89C18DF51BA41C61003AD893 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				896EFF841BA30BBE00BBEF0E /* CycleScrollView */,
@@ -190,14 +302,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		89C18DFE1BA41C61003AD893 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 89C18DFD1BA41C61003AD893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89C18E001BA41C61003AD893 /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = 89C18DFF1BA41C61003AD893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89C18E021BA41C61003AD893 /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 89C18E011BA41C61003AD893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89C18E041BA41C61003AD893 /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 89C18E031BA41C61003AD893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		896EFF831BA30BBE00BBEF0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C18E191BA41D9A003AD893 /* 6.JPG in Resources */,
+				89C18E171BA41D9A003AD893 /* 4.JPG in Resources */,
+				89C18E161BA41D9A003AD893 /* 3.JPG in Resources */,
 				896EFF931BA30BBE00BBEF0E /* Main.storyboard in Resources */,
+				89C18E181BA41D9A003AD893 /* 5.JPG in Resources */,
 				896EFF981BA30BBE00BBEF0E /* LaunchScreen.xib in Resources */,
+				89C18E271BA42FF5003AD893 /* 1.jpg in Resources */,
 				896EFF951BA30BBE00BBEF0E /* Images.xcassets in Resources */,
+				89C18E151BA41D9A003AD893 /* 2.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +366,7 @@
 			files = (
 				896EFF901BA30BBE00BBEF0E /* ViewController.swift in Sources */,
 				896EFF8E1BA30BBE00BBEF0E /* CycleScrollView.xcdatamodeld in Sources */,
+				89C18DF41BA4165F003AD893 /* CycleScrollView.swift in Sources */,
 				896EFF8B1BA30BBE00BBEF0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +386,11 @@
 			isa = PBXTargetDependency;
 			target = 896EFF841BA30BBE00BBEF0E /* CycleScrollView */;
 			targetProxy = 896EFF9E1BA30BBE00BBEF0E /* PBXContainerItemProxy */;
+		};
+		89C18E091BA41C93003AD893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebImage;
+			targetProxy = 89C18E081BA41C93003AD893 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,6 +504,7 @@
 				INFOPLIST_FILE = CycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -359,6 +515,7 @@
 				INFOPLIST_FILE = CycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +572,7 @@
 				896EFFA91BA30BBE00BBEF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		896EFFAA1BA30BBE00BBEF0E /* Build configuration list for PBXNativeTarget "CycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +581,7 @@
 				896EFFAC1BA30BBE00BBEF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
